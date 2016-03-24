@@ -12,6 +12,6 @@ INSERT INTO urls (original_url, count) VALUES ('www.amazon.com', 77);
 select * from urls;
 select original_url from urls;
 select * from urls where id=3;
-select * from urls where 'original_url'='www.hulu.com';
+select * from urls where original_url='www.hulu.com';
 update urls set count='100' where id=3;
 delete from urls where original_url='www.netflix.com';
